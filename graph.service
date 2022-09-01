@@ -4,7 +4,7 @@ After=final.target
 
 [Service]
 Type=simple
-ExecStart=/root/start.sh
+ExecStart=/opt/graph/start
 User=root
 Restart=always
 
