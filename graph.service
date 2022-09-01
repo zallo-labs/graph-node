@@ -1,0 +1,12 @@
+[Unit]
+Description=Graph node
+After=final.target
+
+[Service]
+Type=simple
+ExecStart=/root/start.sh
+User=root
+Restart=always
+
+[Install]
+WantedBy=final.target
